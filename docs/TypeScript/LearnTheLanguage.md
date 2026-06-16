@@ -1,3 +1,7 @@
+---
+icon: fontawesome/solid/graduation-cap
+---
+
 # Learn TypeScript
 
 If you are new to TypeScript or JavaScript, I have compiled a training guide to get you started with a bunch of recommended basics.
