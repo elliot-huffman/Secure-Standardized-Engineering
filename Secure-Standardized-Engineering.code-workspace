@@ -1,13 +1,39 @@
 {
-	"folders": [
-		{
-			"name": "Secure Standardized Engineering",
-			"path": "."
-		}
-	],
-	"settings": {
-		"cSpell.words": [
-			"zensical"
-		]
-	}
+    "folders": [
+        {
+            "name": "Secure Standardized Engineering",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "azurite.disableTelemetry": true,
+        "cSpell.enabledFileTypes": {
+            "*": true
+        },
+        "cSpell.words": [
+            "zensical"
+        ],
+        "editor.formatOnSave": true,
+        "editor.detectIndentation": false,
+        "editor.tabSize": 4,
+        "editor.wordWrap": "off",
+        "files.associations": {
+            "*.md": "python-markdown"
+        },
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "search.exclude": {
+            "**/*.js.map": true
+        },
+        "window.border": "blue",
+        "workbench.iconTheme": "material-icon-theme",
+    },
+    "extensions": {
+        "recommendations": [
+            "PKief.material-icon-theme",
+            "streetsidesoftware.code-spell-checker",
+            "DavidAnson.vscode-markdownlint",
+            "zensical.zensical-studio"
+        ]
+    }
 }
