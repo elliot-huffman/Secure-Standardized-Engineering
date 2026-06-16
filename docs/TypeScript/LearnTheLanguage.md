@@ -1,4 +1,5 @@
 ---
+description: A training guide to get you started with TypeScript for free.
 icon: fontawesome/solid/graduation-cap
 ---
 

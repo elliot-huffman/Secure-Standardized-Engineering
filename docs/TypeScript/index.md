@@ -1,5 +1,5 @@
 ---
-description: Landing page for the set of documentation on how to securely code and design in a standardized way.
+description: Landing page for the TypeScript documentation.
 icon: fontawesome/brands/typescript
 hide:
     - toc
