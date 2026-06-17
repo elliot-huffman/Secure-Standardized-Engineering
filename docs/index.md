@@ -48,7 +48,7 @@ Please select a system to learn more about it:
 
     GitHub Enterprise, Org, Repo, and Infrastructure best practices.
 
-    [:octicons-arrow-right-24: Getting started](./GitHub/index.md){ data-preview }
+    <!-- [:octicons-arrow-right-24: Getting started](./GitHub/index.md){ data-preview } -->
 
 - :fontawesome-solid-terminal: __PowerShell__ (Coming soon!)
 
@@ -56,7 +56,7 @@ Please select a system to learn more about it:
 
     PowerShell language best practices and recommended style guides.
 
-    [:octicons-arrow-right-24: Getting started](./PowerShell/index.md){ data-preview }
+    <!-- [:octicons-arrow-right-24: Getting started](./PowerShell/index.md){ data-preview } -->
 
 - :fontawesome-brands-microsoft: __Azure__ (Coming soon!)
 
@@ -64,7 +64,7 @@ Please select a system to learn more about it:
 
     Azure Security Best Practices and recommended governance.
 
-    [:octicons-arrow-right-24: Getting started](./PowerShell/index.md){ data-preview }
+    <!-- [:octicons-arrow-right-24: Getting started](./PowerShell/index.md){ data-preview } -->
 
 </div>
 
