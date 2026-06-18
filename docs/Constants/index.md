@@ -1,12 +1,9 @@
 ---
 title: General
+description: Constant concepts and patterns that should be used across all systems/projects.
+icon: fontawesome/solid/share-nodes
 ---
 
-When writing the recommendations in the SSE docs, the below is the set of importance that I use when deciding which rule should trump what:
+When designing systems, there are often patterns and concepts that can be applied across the board. This section is meant to cover those constant concepts and patterns that should be used across all systems/projects.
 
-1. Security
-2. Privacy
-3. Cost
-4. Performance
-5. Scalability
-6. Maintainability
+When designing or building any systems, security should be the number one priority, then anything else, such as business requirements, simplicity, and performance (to name a few).

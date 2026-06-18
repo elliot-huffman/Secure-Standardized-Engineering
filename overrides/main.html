@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<script>
+    // Fully disable Google Analytics until the user grants consent.
+    window['ga-disable-G-D0W7SGRRMR'] = true
+
+    // Define dataLayer and the gtag function.
+    window.dataLayer = window.dataLayer || [];
+
+    // Initialize the gtag function to allow for interaction with the google tag manager system globally
+    function gtag() { dataLayer.push(arguments); }
+
+    // Function that grants consent to Google tag manager and Google Analytics.
+    function grantGoogleConsent() {
+        // Enable Google Analytics and Google Tag Manager by setting the disable flag to false
+        window['ga-disable-G-D0W7SGRRMR'] = false
+
+        // Update data collection in Google to indicate collection is allowed
+        gtag('consent', 'update', {
+            'ad_user_data': 'granted',
+            'ad_personalization': 'granted',
+            'ad_storage': 'granted',
+            'analytics_storage': 'granted'
+        });
+    }
+
+    // Set default consent to 'denied' by default, cookie manager will allow or deny after user interaction.
+    gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied'
+    });
+
+    // Initialize the google tag manager configuration
+    gtag('js', new Date());
+    gtag('config', 'G-D0W7SGRRMR');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D0W7SGRRMR"></script>
+</script>
+{% endblock %}

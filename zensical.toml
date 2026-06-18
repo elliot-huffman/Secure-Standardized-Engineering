@@ -38,7 +38,7 @@ repo_url = "https://github.com/elliot-huffman/Secure-Standardized-Engineering"
 # fragment.
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
-copyright = 'Copyright &copy; 2026 <a href="https://elliot.huffman.me">Elliot Huffman</a> &nbsp;|&nbsp; <a href="#__consent">Change cookie settings</a>'
+copyright = 'Copyright &copy; 2026 <a href="https://elliot.huffman.me">Elliot Huffman</a> &nbsp;|&nbsp; <a href="#__consent">Privacy Settings</a> &nbsp;|&nbsp; <a href="/Privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>'
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
 # If you decide not to define a navigation here then Zensical will simply
@@ -68,7 +68,7 @@ extra_css = ["assets/styles/warpStarField.css"]
 # The path provided should be relative to the "docs_dir".
 #
 # Read more: https://zensical.org/docs/customization/#additional-javascript
-extra_javascript = ["assets/scripts/clarity.js"]
+extra_javascript = ["assets/scripts/privacyConsent.js"]
 
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
@@ -83,7 +83,7 @@ extra_javascript = ["assets/scripts/clarity.js"]
 # Read more:
 # - https://zensical.org/docs/customization/#extending-the-theme
 #
-#custom_dir = "overrides"
+custom_dir = "overrides"
 
 # With the "favicon" option you can set your own image to use as the icon
 # browsers will use in the browser title bar or tab bar. The path provided
@@ -366,13 +366,43 @@ combine_header_slug = true
 custom_checkbox = true
 [project.markdown_extensions.pymdownx.tilde]
 
+[project.extra.analytics]
+provider = "google"
+property = "G-D0W7SGRRMR"
+
+[project.extra.analytics.feedback]
+title = "Was this page helpful?"
+
+[[project.extra.analytics.feedback.ratings]]
+icon = "material/emoticon-happy-outline"
+name = "This page was helpful"
+data = 1
+note = "Thanks for your feedback!"
+
+[[project.extra.analytics.feedback.ratings]]
+icon = "material/emoticon-sad-outline"
+name = "This page could be improved"
+data = 0
+note = """
+  Thanks for your feedback! Help me improve this page by
+  using my <a href="https://elliot.huffman.me/contact-me/" target="_blank" rel="noopener">contact form</a>.
+"""
+
 [project.extra.consent]
-title = "Cookie consent"
+title = "Privacy Settings"
+actions = [
+    "accept",
+    "manage",
+    "reject" 
+]
 description = """
-    We use cookies to recognize your repeated visits and preferences, as well
-    as to measure the effectiveness of our documentation and whether users
-    find what they're searching for. With your consent, you're helping us to
-    make our documentation better.
+I use cookies and privacy-friendly tracking to understand how this documentation is used and to improve it over time.
+
+<br><br>With your consent, I use tools like Google Analytics and Microsoft Clarity to measure usage and interaction in more detail.
+
+<br><br>If you decline, I will not use Google Analytics or set non-essential cookies. Some limited, privacy-respecting data collection may still occur to keep the site working and continue improving it.
+
+<br><br>You can learn more in the <a href ="/Privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 """
 
 [project.extra.consent.cookies]
