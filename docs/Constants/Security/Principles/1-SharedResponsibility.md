@@ -84,4 +84,4 @@ This is not legal advice, and you should consult with a lawyer to determine your
 
 ## See Also
 
-- [Microsoft's Shared Responsibility Model](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)
+- [Microsoft's Shared Responsibility Model](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility){:target="_blank"}

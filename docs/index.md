@@ -17,7 +17,7 @@ Non-security code styles and design patterns are also included in each set of gu
 ## Credentials
 
 Why should you trust me? That is not for this site to go in-depth over, check out this one instead:
-<br>[https://elliot.huffman.me](https://elliot.huffman.me)
+<br>[https://elliot.huffman.me](https://elliot.huffman.me){:target="_blank"}
 
 ## Navigation
 
