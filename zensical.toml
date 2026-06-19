@@ -32,7 +32,7 @@ site_url = "https://sse.elliot.huffman.me/"
 # The repository for your project.
 repo_name = "GitHub - SSE"
 repo_url = "https://github.com/elliot-huffman/Secure-Standardized-Engineering"
-
+edit_uri = "edit/main/docs/"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
