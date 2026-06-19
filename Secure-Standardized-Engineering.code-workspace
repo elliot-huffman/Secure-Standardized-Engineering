@@ -11,6 +11,7 @@
             "*": true
         },
         "cSpell.words": [
+            "fontawesome",
             "zensical"
         ],
         "editor.formatOnSave": true,
