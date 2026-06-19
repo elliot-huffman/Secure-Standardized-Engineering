@@ -75,7 +75,7 @@ We use this information to understand which content is helpful, improve navigati
 Google may process this information according to its own privacy practices:
 
 - https://policies.google.com/privacy
-- [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout)
+- [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout){:target="_blank"}
 
 ---
 
@@ -192,7 +192,7 @@ You can control tracking through:
 - Private browsing  
 - Privacy extensions  
 - Consent banner  
-- [Google Analytics opt-out](https://tools.google.com/dlpage/gaoptout)
+- [Google Analytics opt-out](https://tools.google.com/dlpage/gaoptout){:target="_blank"}
 
 Blocking cookies may affect site functionality.
 
@@ -244,8 +244,8 @@ You can control data collection by:
 
 Helpful resources:
 
-- https://myaccount.google.com/privacycheckup  
-- https://myadcenter.google.com/  
-- [Google Analytics Opt-out](https://tools.google.com/dlpage/gaoptout)  
-- https://www.microsoft.com/en-us/privacy/privacystatement  
-- https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+- [Google Privacy Checkup](https://myaccount.google.com/privacycheckup){:target="_blank"}
+- [Google Ad Settings](https://myadcenter.google.com/){:target="_blank"}
+- [Google Analytics Opt-out](https://tools.google.com/dlpage/gaoptout){:target="_blank"}  
+- [Microsoft Privacy Statement](https://www.microsoft.com/en-us/privacy/privacystatement){:target="_blank"}
+- [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement){:target="_blank"}

@@ -62,7 +62,7 @@ This is not an exhaustive list, but rather a starting point for design thinking.
 
 The `system` column is specifically from a [shared responsibility model](./1-SharedResponsibility.md) perspective, but the examples can be applied to any system regardless of type, such as `source code` or `infrastructure`.
 
-If you need assistance in applying the CIA triad to your system(s), feel free to [reach out](https://elliot.huffman.me/contact-me/) for guidance and support.
+If you need assistance in applying the CIA triad to your system(s), feel free to [reach out](https://elliot.huffman.me/contact-me/){:target="_blank"} for guidance and support.
 
 ### Confidentiality
 
