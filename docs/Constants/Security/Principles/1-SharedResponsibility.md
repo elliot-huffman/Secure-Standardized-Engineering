@@ -8,7 +8,7 @@ icon: fontawesome/solid/handshake
 ## Overview
 
 Lets face it, not all system are hosted by you any more.
-In fact this website you are accessing is hosted by a third party (GitHub), and you are trusting them to keep it secure and me to keep the information accurate.
+In fact, this website you are accessing is hosted by a third party (GitHub), and you are trusting them to keep it secure and me to keep the information accurate.
 
 When interacting with a system, it is important to understand what is your responsibility and what is the responsibility of the provider.
 The below table provides a visual breakdown of the shared responsibility model for different types of systems.
@@ -24,22 +24,22 @@ Check out the infrastructure review template for a list of items to verify with 
 
 Legend:
 
-- ❌ - Your Responsibility
+- 🏢 - Your Responsibility
 - 🔄️ - Shared responsibility between you and the provider (specifics depend on the system)
 - ✅ - Offloaded Responsibility to provider
 
 | System                                  | On-Prem  | IaaS    | PaaS     | SaaS    |
 | --------------------------------------- | -------- | ------- | -------- | ------- |
-| `Information and Data`                  | ❌      | ❌      | ❌      | ❌      |
-| `Devices (Clients)`                     | ❌      | ❌      | ❌      | ❌      |
-| `Accounts and Identities`               | ❌      | ❌      | ❌      | ❌      |
-| `Identity and Directory Infrastructure` | ❌      | ❌      | 🔄️      | 🔄️      |
-| `Application (Source) Code`             | ❌      | ❌      | 🔄️      | ✅      |
-| `Networking (SDN/Internet)`             | ❌      | ❌      | 🔄️      | ✅      |
-| `Host Operating System`                 | ❌      | ❌      | ✅      | ✅      |
-| `Physical Host`                         | ❌      | ✅      | ✅      | ✅      |
-| `Physical Networking`                   | ❌      | ✅      | ✅      | ✅      |
-| `Physical Location`                     | ❌      | ✅      | ✅      | ✅      |
+| `Information and Data`                  | 🏢      | 🏢      | 🏢      | 🏢      |
+| `Devices (Clients)`                     | 🏢      | 🏢      | 🏢      | 🏢      |
+| `Accounts and Identities`               | 🏢      | 🏢      | 🏢      | 🏢      |
+| `Identity and Directory Infrastructure` | 🏢      | 🏢      | 🔄️      | 🔄️      |
+| `Application (Source) Code`             | 🏢      | 🏢      | 🔄️      | ✅      |
+| `Networking (SDN/Internet)`             | 🏢      | 🏢      | 🔄️      | ✅      |
+| `Host Operating System`                 | 🏢      | 🏢      | ✅      | ✅      |
+| `Physical Host`                         | 🏢      | ✅      | ✅      | ✅      |
+| `Physical Networking`                   | 🏢      | ✅      | ✅      | ✅      |
+| `Physical Location`                     | 🏢      | ✅      | ✅      | ✅      |
 
 ### Items That Are Always Your Responsibility
 

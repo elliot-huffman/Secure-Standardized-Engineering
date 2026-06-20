@@ -9,6 +9,7 @@ icon: fontawesome/solid/user-secret
 Or CIA for short. Also known as the CIA triad.
 
 This model helps in rapid design thinking where each component of the CIA process should be applied to each level of the system being designed.
+When running through a CIA rubric, you can apply multiple C, I and A to a single component, once you have one doesn't mean you're done.
 
 For example:
 
@@ -108,3 +109,9 @@ If you need assistance in applying the CIA triad to your system(s), feel free to
 | `Physical Host`                         | Data encryption at rest      |
 | `Physical Networking`                   | Link Trunking                |
 | `Physical Location`                     | Multiple data-centers        |
+
+## Final Thoughts
+
+Ultimately, applying the CIA triad during the architectural phase is about moving from a reactive security posture to one of proactive resilience. By using these principles as a lens for design thinking, you can implement "Security by Design" at the foundational level, ensuring that controls are baked into your infrastructure rather than bolted on after deployment. 
+
+While this framework provides a vital baseline for identifying high-level gaps across your entire stack, remember that true security maturity comes from the integration of these principles into a continuous lifecycle of threat modeling, monitoring, and iterative improvement. Use this checklist to drive deeper technical discussions and to ensure that every layer of your system is engineered to withstand the evolving threat landscape.
