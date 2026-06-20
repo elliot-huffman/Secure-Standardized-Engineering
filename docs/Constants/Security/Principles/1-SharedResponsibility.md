@@ -7,11 +7,11 @@ icon: fontawesome/solid/handshake
 
 ## Overview
 
-Lets face it, not all system are hosted by you any more.
-In fact, this website you are accessing is hosted by a third party (GitHub), and you are trusting them to keep it secure and me to keep the information accurate.
+Let's face it, not all systems are hosted by you anymore.
+In fact, this website you are accessing is hosted by a third party (GitHub), and you are trusting them to keep it secure and me to keep the information correct.
 
-When interacting with a system, it is important to understand what is your responsibility and what is the responsibility of the provider.
-The below table provides a visual breakdown of the shared responsibility model for different types of systems.
+When interacting with a system, it is important to understand what your responsibility is and what is the responsibility of the provider.
+The table below provides a visual breakdown of the shared responsibility model for several types of systems.
 
 ## Trust but verify
 
@@ -46,8 +46,8 @@ Legend:
 No matter how you host your systems, there are some things that are always your responsibility. These include:
 
 - `Information and Data`
-    - The system provider is not going to run it for you or be able to provide your data, you have to do this.
-    - The system provider is unable to determine the level of sensitivity of your data as well as you can.
+    - The system provider is not going to run it for you or be able to provide your data, you must do this.
+    - The system provider is unable to figure out the level of sensitivity of your data as well as you can.
 - `Devices (Clients)`
     - The systems used to access various systems are generally provided by you, not the service provider. 
 - `Accounts and Identities`
@@ -60,7 +60,7 @@ The specifics of this shared responsibility depend on the type of system you are
 
 For example:
 
-- In a PaaS Azure App Service in code deploy mode, you are responsible for the application code, but the provider is responsible for the runtime.
+- In a PaaS Azure App Service in code deploy mode, you handle the application code, but the provider handles the runtime.
 - In a SaaS app like GitHub, the GitHub platform has a built in IdP, but identity can be offloaded via SSO and SCIM. Hence a shared responsibility.
 
 ### Items That Are Immediately Transferred to the Provider
@@ -76,11 +76,26 @@ As soon as you move to any type of cloud system, the physical aspects of the sys
 
 ## Recoup Damages
 
-Depending on certain factors such as the contract/agreement you signed with the provider, geographic location, and governing laws, you may be able to recoup damages from the provider if they fail to meet their responsibilities.
-This can be through breach, downtime, or other failures that result in loss of data, revenue, or other damages.
-Offloading responsibility to a provider does not absolve you of your responsibilities, and you should always have a plan in place to recoup damages if the provider fails to meet their responsibilities.
+Depending on factors like your contract, location, and applicable laws, you may have options if a provider doesn't meet their responsibilities. These can include:
 
-This is not legal advice, and you should consult with a lawyer to determine your options if the provider fails to meet their responsibilities.
+- Service credits for outages or missed SLAs.
+- Contractual damages defined in your agreement.
+- Legal claims in cases of breach or negligence.
+
+These situations can arise from issues such as:
+
+- Downtime or service disruptions.
+- Data loss.
+- Impact to revenue or business operations.
+
+It's important to remember:
+
+- Handing responsibility to a provider does not remove your accountability.
+- You should always have a plan to recover losses or mitigate impact if the provider fails to deliver.
+
+!!!warning "Disclaimer"
+    This content is provided for general informational purposes only and is not legal advice. It does not create an attorney-client relationship. Laws, contracts, remedies, and rights vary by jurisdiction and by the specific agreement and facts involved. You should consult a qualified attorney before relying on this information or taking action regarding provider failures, damages, breach, downtime, data loss, or other legal claims.
+
 
 ## See Also
 

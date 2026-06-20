@@ -8,15 +8,15 @@ icon: fontawesome/solid/user-secret
 
 Or CIA for short. Also known as the CIA triad.
 
-This model helps in rapid design thinking where each component of the CIA process should be applied to each level of the system being designed.
-When running through a CIA rubric, you can apply multiple C, I and A to a single component, once you have one doesn't mean you're done.
+This model helps in rapid design thinking where each part of the CIA process should be applied to each level of the system being designed.
+When running through a CIA rubric, you can apply multiple C, I and A to a single component/layer, once you have one on each component/layer doesn't mean you're done with it.
 
 For example:
 
 - `Information and Data`
-    - Encryption at rest to ensure confidentiality
-    - Signatures to ensure integrity
-    - Backups to ensure availability
+    - Encryption at rest to ensure confidentiality.
+    - Signatures to ensure integrity.
+    - Backups to ensure availability.
 
 !!!warning "Not Threat Modeling Replacement"
     This is meant as a starting point for design thinking.
@@ -54,7 +54,7 @@ Guarding against denial of service (DoS) attacks is also an important aspect of 
 
 !!!Example
     A law firm has files relating to a case and is legally required to retain them.<br>
-    The law firm backs up the files to a secure location to ensure that they are available in the event of a ransomware attack or other disaster.
+    The law firm backs up the files to a secure location to ensure that they are available in case of a ransomware attack or other disaster.
 
 ## Examples
 
@@ -63,7 +63,7 @@ This is not an exhaustive list, but rather a starting point for design thinking.
 
 The `system` column is specifically from a [shared responsibility model](./1-SharedResponsibility.md) perspective, but the examples can be applied to any system regardless of type, such as `source code` or `infrastructure`.
 
-If you need assistance in applying the CIA triad to your system(s), feel free to [reach out](https://elliot.huffman.me/contact-me/){:target="_blank"} for guidance and support.
+If you need help in applying the CIA triad rubric to your system(s), feel free to [reach out](https://elliot.huffman.me/contact-me/){:target="_blank"} for guidance and support.
 
 ### Confidentiality
 
@@ -108,10 +108,10 @@ If you need assistance in applying the CIA triad to your system(s), feel free to
 | `Host Operating System`                 | Recovery Environment         |
 | `Physical Host`                         | Data encryption at rest      |
 | `Physical Networking`                   | Link Trunking                |
-| `Physical Location`                     | Multiple data-centers        |
+| `Physical Location`                     | Multiple datacenters        |
 
 ## Final Thoughts
 
 Ultimately, applying the CIA triad during the architectural phase is about moving from a reactive security posture to one of proactive resilience. By using these principles as a lens for design thinking, you can implement "Security by Design" at the foundational level, ensuring that controls are baked into your infrastructure rather than bolted on after deployment. 
 
-While this framework provides a vital baseline for identifying high-level gaps across your entire stack, remember that true security maturity comes from the integration of these principles into a continuous lifecycle of threat modeling, monitoring, and iterative improvement. Use this checklist to drive deeper technical discussions and to ensure that every layer of your system is engineered to withstand the evolving threat landscape.
+While this framework provides a baseline for finding high-level gaps across your entire stack, remember that true security maturity comes from the integration of these principles into a continuous lifecycle of threat modeling, monitoring, and iterative improvement. Use this checklist to drive deeper technical discussions and to ensure that every layer of your system is engineered to withstand the evolving threat landscape.
