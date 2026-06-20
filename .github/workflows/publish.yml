@@ -40,7 +40,7 @@ jobs:
 
         # List of jobs that need to complete successfully before this job can run.
         needs: Build-HTML
-        
+
         # Set the execution context for being able to deploy to GitHub Pages
         environment: github-pages
 
@@ -56,7 +56,7 @@ jobs:
             - name: Validate Attestation
               env:
                   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              run: gh attestation verify docs.zip --repo elliot-huffman/Secure-Standardized-Engineering --signer-workflow elliot-huffman/Secure-Standardized-Engineering/.github/workflows/build.yml@${{ github.event_name == 'release' && format('refs/tags/{0}', github.ref_name) || 'refs/heads/main' }}
+              run: gh attestation verify docs.zip --repo elliot-huffman/Secure-Standardized-Engineering --signer-workflow elliot-huffman/Secure-Standardized-Engineering/.github/workflows/build.yml@${{ github.event_name == 'release' && github.sha || 'refs/heads/main' }}
 
             # Unzip the compiled HTML files to prepare for hosting
             - name: Unzip Compiled Files
@@ -66,7 +66,7 @@ jobs:
             - name: Upload static files as artifact
               uses: actions/upload-pages-artifact@v5
               with:
-                path: site/
+                  path: site/
 
             # Commit the prepped files to the hosting system
             - name: Deploy to GitHub Pages
