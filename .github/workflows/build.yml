@@ -11,9 +11,9 @@ on:
 
     # Triggers the workflow on push or pull request events to the main branch.
     push:
-        branches: [ main ]
+        branches: [main]
     pull_request:
-        branches: [ main, public ]
+        branches: [main, public]
 
 # List of isolated execution environments for this workflow.
 jobs:
@@ -29,7 +29,7 @@ jobs:
             attestations: write
             contents: read
             id-token: write
-        
+
         # Set of steps to be executed in the job.
         steps:
             # Check out the repository's files into the runner so that it can work with them.
@@ -40,7 +40,7 @@ jobs:
             - name: Set up Python
               uses: actions/setup-python@v6
               with:
-                  python-version: '3.13'
+                  python-version: "3.14"
 
             # Install the dependencies for building the documentation.
             - name: Install Dependencies
@@ -59,11 +59,11 @@ jobs:
             - name: Attest Compiled File
               uses: actions/attest@v4
               with:
-                subject-path: docs.zip
+                  subject-path: docs.zip
 
             # Upload the compiled HTML files as an artifact for use in other workflows.
             - name: Upload Compiled Files
               uses: actions/upload-artifact@v7
               with:
-                name: Static-HTML
-                path: docs.zip
+                  name: Static-HTML
+                  path: docs.zip

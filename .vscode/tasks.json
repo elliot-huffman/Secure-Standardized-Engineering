@@ -56,7 +56,7 @@
                 "color": "terminal.ansiRed",
                 "id": "server-process"
             },
-            "command": "python3.13",
+            "command": "python",
             "type": "process",
             "args": [
                 "-m",
