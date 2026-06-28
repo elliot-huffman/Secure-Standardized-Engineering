@@ -34,7 +34,7 @@ jobs:
         steps:
             # Check out the repository's files into the runner so that it can work with them.
             - name: Clone Repository to Runner
-              uses: actions/checkout@v6
+              uses: actions/checkout@v7
 
             # Set up the Python runtime on the runner for use in subsequent steps.
             - name: Set up Python
