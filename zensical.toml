@@ -399,13 +399,13 @@ actions = [
     "reject" 
 ]
 description = """
-I use cookies and privacy-friendly tracking to understand how this documentation is used and to improve it over time.
+We use cookies and privacy-friendly tracking to understand how this documentation is used and to improve it over time.
+<br>With your consent, we use tools like Google Analytics and Microsoft Clarity to measure usage and interaction in more detail.
 
-<br><br>With your consent, I use tools like Google Analytics and Microsoft Clarity to measure usage and interaction in more detail.
+<br><br>If you decline, we do not use Google Analytics or set non-essential cookies.
+<br>Some limited, privacy-respecting data collection may still occur to keep the site working and continue improving it.
 
-<br><br>If you decline, I will not use Google Analytics or set non-essential cookies. Some limited, privacy-respecting data collection may still occur to keep the site working and continue improving it.
-
-<br><br>You can learn more in the <a href ="/Privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+<br><br>You can learn more in the <a href="/Privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 """
 
 [project.extra.consent.cookies]
