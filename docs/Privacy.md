@@ -4,6 +4,8 @@ description: Privacy Policy for the SSE project.
 icon: fontawesome/solid/fingerprint
 search:
   exclude: true
+tags:
+  - Legal
 hide:
     - footer
 ---

@@ -411,3 +411,11 @@ I use cookies and privacy-friendly tracking to understand how this documentation
 [project.extra.consent.cookies]
 clarity.name = "Microsoft Clarity"
 clarity.checked = true
+
+[project.extra.tags]
+Azure = "az"
+GitHub = "gh"
+Legal = "legal"
+PowerShell = "ps"
+TypeScript = "ts"
+Shared = "common"

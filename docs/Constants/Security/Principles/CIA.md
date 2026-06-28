@@ -1,5 +1,7 @@
 ---
 icon: fontawesome/solid/user-secret
+tags:
+  - Common
 ---
 
 # Confidentiality, Integrity, and Availability

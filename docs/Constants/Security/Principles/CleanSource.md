@@ -2,6 +2,8 @@
 title: Clean Source
 description: The clean source principle states that `The security of a system is only as strong as the weakest link in the chain`. This means that if a threat actor compromises any upstream component of a system, it can potentially compromise any downstream (dependent) system.
 icon: fontawesome/solid/soap
+tags:
+  - Common
 ---
 
 # The Clean Source Principle

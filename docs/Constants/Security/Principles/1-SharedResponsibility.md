@@ -1,6 +1,8 @@
 ---
 description: The shared responsibility model is a framework that outlines the division of security responsibilities between cloud service providers and their customers. It helps organizations understand their role in securing data, applications, and infrastructure in the cloud.
 icon: fontawesome/solid/handshake
+tags:
+  - Common
 ---
 
 # Shared Responsibility Model
