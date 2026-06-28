@@ -76,7 +76,7 @@ I started with the acronym SSE from the CPU instruction set called SSE (Streamin
 
 
 <!-- HTML Starfield for the home page background -->
-<canvas id="warpCanvas"></canvas>
+<canvas id="warpCanvas" aria-hidden="true" role="presentation"></canvas>
 <script>
     // Run the star field attractor animation
     (function () {
