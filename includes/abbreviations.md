@@ -3,6 +3,7 @@
 *[PAWs]: Privileged Access Workstations
 *[PAM]: Privileged Access Management
 *[PAMs]: Privileged Access Management Systems
+*[EDR]: Endpoint Detection and Response
 *[C2]: Command and Control
 *[RCE]: Remote Code Execution
 *[SLSA]: Supply-chain Levels for Software Artifacts
@@ -17,3 +18,7 @@
 *[IIoT]: Industrial Internet of Things
 *[EIoT]: Enterprise Internet of Things
 *[OT]: Operational Technology
+*[ROI]: Return on Investment
+*[VPN]: Virtual Private Network
+*[NIST]: National Institute of Standards and Technology
+*[CISA]: Cybersecurity and Infrastructure Security Agency
