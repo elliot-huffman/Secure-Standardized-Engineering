@@ -14,6 +14,10 @@ If it asks for a credit card, don't use it. Ping me and I will refine the course
 
 1. [Intro To Programming Terminology](https://www.codecademy.com/learn/learn-how-to-code){:target="_blank"}
     - You should only do this course if you have never programmed before.
+2. [Intro to HTML](https://www.codecademy.com/learn/learn-html){:target="_blank"}
+    - You should only do this course if you don't know HTML.
+3. [Intro to CSS](https://www.codecademy.com/learn/learn-css){:target="_blank"} 
+    - You should only do this course if you don't know CSS.
 2. [JavaScript - Core](https://www.codecademy.com/learn/introduction-to-javascript){:target="_blank"}
 3. [JavaScript - Continued](https://www.codecademy.com/learn/learn-intermediate-javascript){:target="_blank"}
 4. [TypeScript - Core](https://www.codecademy.com/learn/learn-typescript){:target="_blank"}
