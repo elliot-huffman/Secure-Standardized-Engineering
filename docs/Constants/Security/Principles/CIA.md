@@ -63,7 +63,7 @@ Guarding against denial of service (DoS) attacks is also an important aspect of 
 Below are some examples on how to get started with applying the CIA triad to different components of a system.
 This is not an exhaustive list, but rather a starting point for design thinking.
 
-The `system` column is specifically from a [shared responsibility model](./1-SharedResponsibility.md) perspective, but the examples can be applied to any system regardless of type, such as `source code` or `infrastructure`.
+The `system` column is specifically from a [shared responsibility model](2-SharedResponsibility.md) perspective, but the examples can be applied to any system regardless of type, such as `source code` or `infrastructure`.
 
 If you need help in applying the CIA triad rubric to your system(s), feel free to [reach out](https://elliot.huffman.me/contact-me/){:target="_blank"} for guidance and support.
 

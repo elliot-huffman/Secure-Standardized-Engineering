@@ -13,7 +13,7 @@ It is not enough to stop once you have implemented a single security measure.
 !!! danger "Core assumption of Defense in Depth"
     Every security control can fail, and in unexpected ways.
 
-    Which is an extension of the [Principle of Assume Breach](./0-AssumeBreach.md){:data-preview}.
+    Which is an extension of the [Principle of Assume Breach](0-AssumeBreach.md){:data-preview}.
 
 For example:
 
@@ -164,7 +164,7 @@ Examples include:
 
 !!! note "Clean Source Lives Here"
     A compromised endpoint can undermine otherwise secure infrastructure, no matter how perfectly secured the systems are.<br>
-    See the [clean source principle](./CleanSource.md){:data-preview} for more information on how this relationship works.
+    See the [clean source principle](CleanSource.md){:data-preview} for more information on how this relationship works.
 
 ### Network
 
@@ -172,7 +172,7 @@ Networks should not be assumed trustworthy.
 
 !!! info "Assume Breach"
     All networks should be treated as the raw internet when designing the workloads they host.
-    The [Principle of Assume Breach](./0-AssumeBreach.md){:data-preview} demands it.
+    The [Principle of Assume Breach](0-AssumeBreach.md){:data-preview} demands it.
 
 Examples include:
 
@@ -225,7 +225,7 @@ CIA provides a framework for thinking about a subset of controls, while Defense 
 
 ## See Also
 
-- [CIA Triad](./CIA.md){ data-preview }
+- [CIA Triad](CIA.md){ data-preview }
 - [Wikipedia - Defense in Depth](https://en.wikipedia.org/wiki/Defence_in_depth){:target="_blank"}
 - [Microsoft - Well Architected Framework - Security](https://learn.microsoft.com/en-us/azure/well-architected/security/){:target="_blank"}
 - [Microsoft - Attacker ROI](https://learn.microsoft.com/en-us/security/zero-trust/adopt/rapidly-modernize-security-posture#attacker-return-on-investment){:target="_blank"}
