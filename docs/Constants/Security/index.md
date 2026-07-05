@@ -4,14 +4,26 @@ description: Security concepts that can be shared across all systems and technol
 icon: fontawesome/solid/shield-halved
 ---
 
-Security principles:
+Set of security concepts, practices and checklists that can be shared across all systems and technologies.
+These concepts are not specific to any one system or technology, but rather are applicable to all systems and technologies.
 
-- [Assume Breach](./Principles/0-AssumeBreach.md)
-- [Shared Responsibility Model](Principles/2-SharedResponsibility.md)
-- [Defense in Depth](Principles/1-DefenseInDepth.md)
-- [Clean Source Principle](./Principles/CleanSource.md)
-- [Confidentiality, Integrity, and Availability](./Principles/CIA.md)
+To get started, start with security principles, then move onto supply chain security, and then any others in any order as you will have completed the foundational concepts.
 
-Supply Chain:
+<!-- markdownlint-disable-next-line MD033 -->
+<div class="grid cards" markdown>
+- :fontawesome-solid-gavel: __Principles__
 
-- [Infrastructure Review Template](./Supply Chain/InfrastructureReview.md)
+    ---
+
+    Set of security principles that should be followed when developing, designing, and maintaining systems.
+
+    [:octicons-arrow-right-24: Overview](./Principles/index.md){ data-preview }
+
+- :fontawesome-solid-truck-ramp-box: __Supply Chain__
+
+    ---
+
+    The foundation that you build your systems on, implementing the principles that you learned earlier to ensure your systems are secure.
+
+    [:octicons-arrow-right-24: Overview](./SupplyChain/index.md){ data-preview }
+</div>
