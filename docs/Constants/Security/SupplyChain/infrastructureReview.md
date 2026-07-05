@@ -5,4 +5,3 @@ icon: fontawesome/solid/magnifying-glass-chart
 ---
 
 Coming soon!
-sasd
