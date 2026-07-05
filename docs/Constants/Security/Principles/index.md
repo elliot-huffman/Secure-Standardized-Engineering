@@ -39,7 +39,7 @@ If you build, operate, approve, integrate, or depend on systems, these are for y
 
     **What can it reach next?**
 
-    [Learn Why This Changes Everything](0-AssumeBreach.md){ data-preview }
+    [:octicons-arrow-right-24: Learn Why This Changes Everything](0-AssumeBreach.md){ data-preview }
 
 -   :fontawesome-solid-layer-group: **Defense in Depth**
 
@@ -48,7 +48,7 @@ If you build, operate, approve, integrate, or depend on systems, these are for y
 
     Learn how to design systems where a single failure does not become a full compromise.
 
-    [Make Failure Survivable](1-DefenseInDepth.md){ data-preview }
+    [:octicons-arrow-right-24: Make Failure Survivable](1-DefenseInDepth.md){ data-preview }
 
 -   :fontawesome-solid-handshake: **Shared Responsibility**
 
@@ -57,7 +57,7 @@ If you build, operate, approve, integrate, or depend on systems, these are for y
 
     Learn what is yours, what belongs to the provider, and why “they handle that” is not a security strategy.
 
-    [Find Out What Is Still Your Problem](2-SharedResponsibility.md){ data-preview }
+    [:octicons-arrow-right-24: Find Out What Is Still Your Problem](2-SharedResponsibility.md){ data-preview }
 
 -   :fontawesome-solid-user-secret: **Confidentiality, Integrity, and Availability**
 
@@ -65,7 +65,7 @@ If you build, operate, approve, integrate, or depend on systems, these are for y
 
     It is also about making sure data is accurate, systems are usable, and critical information survives failure.
 
-    [Use CIA as a Design-Thinking Shortcut](CIA.md){ data-preview }
+    [:octicons-arrow-right-24: Use CIA as a Design-Thinking Shortcut](CIA.md){ data-preview }
 
 -   :fontawesome-solid-soap: **Clean Source**
 
@@ -73,7 +73,7 @@ If you build, operate, approve, integrate, or depend on systems, these are for y
 
     This applies to admin workstations, keyboards, build pipelines, dependencies, automation, and anything upstream of production.
 
-    [Trace Trust Back to the Source](CleanSource.md){ data-preview }
+    [:octicons-arrow-right-24: Trace Trust Back to the Source](CleanSource.md){ data-preview }
 
 -   :fontawesome-solid-eye-slash: **Security Through Obscurity**
 
@@ -82,7 +82,7 @@ If you build, operate, approve, integrate, or depend on systems, these are for y
 
     Learn why hiding details can add friction, but rarely changes the outcome unless stronger controls are already doing the real work.
 
-    [Stop Hiding Problems and Start Fixing Them](./securityThroughObscurity.md){ data-preview }
+    [:octicons-arrow-right-24: Stop Hiding Problems and Start Fixing Them](./securityThroughObscurity.md){ data-preview }
 </div>
 
 ## The Uncomfortable Truth
