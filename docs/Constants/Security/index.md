@@ -49,7 +49,7 @@ Start with the foundational concepts, then move into the areas that apply to the
 
     Supply chain security focuses on the upstream components, dependencies, pipelines, vendors, identities, and processes that influence what eventually runs in production.
 
-    [:octicons-arrow-right-24: Validate Trust Upstream](./SupplyChain/index.md)
+    [:octicons-arrow-right-24: Validate Trust Upstream](ReviewTemplates/index.md)
 </div>
 
 ---
