@@ -4,6 +4,8 @@ description: Security through obscurity can slow attackers down, but it rarely c
 icon: fontawesome/solid/eye-slash
 ---
 
+## Overview
+
 Security through obscurity is the practice of hiding details about a system in the hope that attackers will have a harder time finding, understanding, or exploiting it.
 
 !!! quote "On Designing With Security Through Obscurity:"
@@ -29,7 +31,7 @@ It may slow an attacker down. It rarely stops one.
 Security through obscurity usually shows up as hiding, disguising, or withholding technical details.
 
 | Obscurity Pattern | Common Example | The Risk |
-|---|---|---|
+| ----------------- | -------------- | -------- |
 | Hidden names | Renaming administrator accounts, groups, services, or systems | Attackers may still discover them, while defenders may become confused during operations or response. |
 | Hidden locations | Moving services to non-standard ports or unusual paths | This may avoid basic scans, but it does not replace authentication, authorization, or patching. |
 | Hidden versions | Suppressing banners or software version details | This may reduce casual targeting, but vulnerable software is still vulnerable. |
@@ -41,7 +43,7 @@ None of these are automatically bad. Some are perfectly reasonable.
 The mistake is believing that hidden information is the same thing as protection.<br>
 It is not.
 
-Obscurity changes what the attacker can immediately see. It does not necessarily change what the attacker can eventually do.
+Obscurity changes what the attacker can initially see. It does not necessarily change what the attacker can eventually do.
 
 ## Obscurity Has a ROI Problem
 
@@ -59,17 +61,17 @@ That is the real problem with security through obscurity:
 
 It often consumes effort without meaningfully changing the attacker’s path.
 
-!!! danger "Core problem"
+!!! danger "Core Problem"
     Obscurity usually makes the system harder to understand for defenders before it makes the system meaningfully harder to compromise for attackers.
 
 A control with low return on investment is not automatically worthless, but it should not be where the security program starts.
 
 ## Obscurity Can Hurt Defenders More Than Attackers
 
-Attackers are allowed to be patient, curious, and destructive. Defenders have to keep the business running.<br>
+Attackers are allowed to be patient, curious, and destructive. Defenders must keep the business running.<br>
 That difference matters.
 
-When obscurity is overused, defenders may end up with systems that are harder to operate, harder to troubleshoot, harder to document, and harder to recover.
+When obscurity is overused, defenders may end up with systems that are harder to run, harder to troubleshoot, harder to document, and harder to recover.
 
 | Obscurity Choice | How It May Slow an Attacker  | How It May Hurt Defenders                          |
 | ---------------- | ---------------------------- | -------------------------------------------------- |
@@ -79,7 +81,7 @@ When obscurity is overused, defenders may end up with systems that are harder to
 | Undocumented architecture | May limit what outsiders know. | Can keep critical context away from the people responsible for defending the system. |
 | Confusing naming conventions | May make the environment less obvious. | Can make access reviews, investigations, and change management harder. |
 
-Attackers only need to figure the system out once. Defenders have to understand it every day.<br>
+Attackers only need to figure the system out once. Defenders must understand it every day.<br>
 That means unnecessary obscurity can become defensive debt.
 
 ## See Something, Say Something
@@ -95,18 +97,18 @@ That may feel safer. It usually is not.
 | --------------- | --------------------- |
 | A control only works because people do not know how the system works. | The control may be secrecy, not security. |
 | An architecture cannot survive being explained. | The design may depend on confusion instead of resilience. |
-| A design depends on hidden knowledge. | The organization may be reducing the number of people who can help defend it. |
+| Something depends on hidden knowledge. | The organization may be reducing the number of people who can help defend it. |
 | Only one person understands how a critical system is secured. | The organization has created operational and security risk. |
 | Documentation is avoided because it might reveal weaknesses. | Those weaknesses still exist, but fewer defenders can help find them. |
-| Security posture is unclear to the people responsible for operating the system. | The organization may not understand its actual risk. |
+| Security posture is unclear to the people responsible for running the system. | The organization may not understand its actual risk. |
 
-Security improves when more people are able to reason about the system:
+Security improves when more people can reason about the system:
 
  - Not just security engineers.
  - Not just architects.
  - Not just administrators.
 
-**Anyone** who can observe a weak assumption can help improve the design.
+**Anyone** who can see a weak assumption can help improve the design.
 
 Even someone far outside the security team may notice something important because they are not trapped inside the same mental model as the implementer.
 
@@ -117,7 +119,8 @@ I practice radical transparency because I believe it produces stronger security 
 The goal is not to expose secrets like passwords, private keys, tokens, or sensitive operational details that would create immediate risk.<br>
 The goal is to make system designs, trust relationships, architecture decisions, and security posture visible enough that people can understand how the organization actually stands.
 
-That visibility matters. Security does not improve when architecture is treated like forbidden knowledge.
+That visibility matters.
+Security does not improve when architecture is treated as forbidden knowledge.
 Security improves when assumptions can be challenged.
 
 A janitor, help desk technician, developer, executive assistant, system administrator, auditor, or engineer may each see a different part of the organization. Each may notice a different failure mode.
@@ -131,16 +134,17 @@ That diversity of thought is valuable.
 The same idea applies to algorithms and architecture.
 
 !!! quote "Expanding on the Proverb - Algorithms"
-    It is easy to design a algorithm that keeps yourself out.<br>
-    It is difficult to design a algorithm that keeps others out.
+    It is easy to design an algorithm that keeps yourself out.<br>
+    It is difficult to design an algorithm that keeps others out.
 
 !!! quote "Expanding on the Proverb - Architecture"
-    It is easy to design a architecture that keeps yourself out.<br>
-    It is difficult to design a architecture that keeps others out.
+    It is easy to design an architecture that keeps yourself out.<br>
+    It is difficult to design an architecture that keeps others out.
 
-That is why transparency is not the opposite of security. In mature environments, transparency is part of security.
+That is why transparency is not the opposite of security.
+In mature environments, transparency is part of security.
 
- - It allows more people to test the assumptions.
+ - It allows more people to test their assumptions.
  - It allows weak designs to be challenged earlier.
  - It reduces dependence on individual knowledge.
  - It makes security posture easier to understand.
@@ -160,7 +164,7 @@ Radical transparency asks a better question:
     If people understand how this works, does the design still hold up?
 
  - If the answer is `yes`, the design is probably stronger.
- - If the answer is `no`, obscurity is not protecting the organization as much as the implementer thought it is.
+ - If the answer is `no`, obscurity is not protecting the organization as much as the implementer thought it was.
 
 ## Secrecy Is Not the Same Thing as Security Architecture
 
@@ -194,15 +198,15 @@ Some examples of how digital systems can change faster than physical forces incl
 Digital systems are far more agile than physical forces, which changes the value of secrecy.
 In physical conflict, hiding the location of troops may be essential because repositioning them is slow, dangerous, and expensive.
 
-In digital systems, the better investment is often not hiding the current position.
+In digital systems, better investment is often not hiding the current position.
 The better investment is making the system resilient, attestable, observable, revocable, segmented, and recoverable.
 
-!!! info "The distinction"
+!!! info "The Distinction"
     Secrecy can be useful. But secrecy is not a substitute for controls that reduce access, limit blast radius, detect compromise, and support rapid recovery.
 
 ## Better Investments Usually Exist
 
-Before spending significant time on obscurity, higher-value controls should usually come first.
+Before spending considerable time on obscurity, higher-value controls should usually come first.
 
 | Better Investment | Why It Usually Has Higher ROI |
 | ----------------- | ----------------------------- |
@@ -218,7 +222,7 @@ Before spending significant time on obscurity, higher-value controls should usua
 | Centralized logging and monitoring | Improves detection, investigation, and response. |
 | Backup and recovery testing | Ensures the organization can recover when prevention fails. |
 | Network segmentation | Limits movement between systems and reduces blast radius. |
-| Clean source enforcement | Protects downstream systems by securing upstream control points. |
+| Clean source enforcement | Protect downstream systems by securing upstream control points. |
 | Secure build pipelines | Reduces the risk of compromised code, dependencies, or release automation. |
 | Secret rotation | Limits the useful life of exposed credentials, keys, and tokens. |
 | Threat modeling | Finds weak assumptions before attackers do. |
@@ -238,7 +242,9 @@ That is the difference, good security does not collapse when it is understood.
 
 ## Where Obscurity Can Be Useful
 
-Security through obscurity is not useless. It is just commonly overvalued. There are cases where obscurity can be a reasonable supporting control.
+Security through obscurity is not useless.
+It is commonly overvalued.
+There are cases where obscurity can be a reasonable supporting control.
 
 ### Deception and Decoy Signals
 
@@ -248,7 +254,7 @@ For example, scarecrow-style techniques may make a machine appear to be used for
 This can cause some malware or automated tooling to behave differently, exit early, or avoid interacting with the system.<br>
 
 That can be useful, but it should be treated as attacker friction, not a complete defense.
-The malware can also simply ignore the scarecrow signals and continue to operate.
+The malware can also simply ignore the scarecrow signals and continue to run.
 
 If the endpoint is compromised, if the identity has excessive access, or if the system lacks monitoring, the disguise is not enough.
 
@@ -261,10 +267,10 @@ For example:
 - Avoiding predictable resource names.
 - Avoiding sequential identifiers.
 - Reducing easy enumeration.
-- Making correlation harder for unauthorized observers.
+- Making correlations harder for unauthorized observers.
 - Preventing casual guessing of object names or URLs.
 
-This can reduce opportunistic abuse, but randomization must be consistent enough for defenders to operate the system.<br>
+This can reduce opportunistic abuse, but randomization must be consistent enough for defenders to run the system.<br>
 If randomization makes asset management, incident response, or access review harder, the control may hurt more than it helps.
 
 ## Obscurity Should Be a Finishing Layer
@@ -277,7 +283,7 @@ Obscurity is best used after the important work is already done.
 - It is not structure.
 - It is camouflage on a hardened vehicle, not cardboard armor painted to look like steel.
 
-!!! warning "Do not start here"
+!!! warning "Do Not Start Here"
     If phishing-resistant authentication, privileged access isolation, least privilege, logging, patching, and recovery are not in place, obscurity is usually not the best use of time.
 
 ## The Real Test
@@ -285,7 +291,7 @@ Obscurity is best used after the important work is already done.
 To evaluate an obscurity control, ask this:
 
 !!! quote "Question"
-    If the attacker discovers this hidden detail, what security remains?
+    If the attacker discovers this hidden detail, what security is left over?
 
 The logical inversion is also useful:
 
@@ -293,7 +299,7 @@ The logical inversion is also useful:
     If the organization understands this design, does the design get stronger or weaker?
 
 If transparency makes the system less safe, the design may be relying too heavily on secrecy.<br>
-If transparency makes the system stronger, easier to review, easier to operate, and easier to improve, then the design is probably moving in the right direction.
+If transparency makes the system stronger, easier to review, easier to run, and easier to improve, then the design is probably moving in the right direction.
 
 - Good security should survive disclosure.
 - Good architecture should survive review.
@@ -308,23 +314,15 @@ If transparency makes the system stronger, easier to review, easier to operate, 
 
 Security through obscurity can add friction, but it is usually a low-return investment when compared to stronger architectural controls.
 
-It may help in specific cases, especially when used for deception, identifier randomization, or reducing unnecessary exposure.
+It may help in specific cases, especially when used for deception, identifier randomization, or reducing unnecessary exposure, but it should not be confused with foundational security:
 
-But it should not be confused with foundational security.
+ - Foundational security reduces access.
+ - Foundational security limits blast radius.
+ - Foundational security detects compromise.
+ - Foundational security enables recovery.
+ - Foundational security still works when the attacker understands it.
 
-Foundational security reduces access.
-
-Foundational security limits blast radius.
-
-Foundational security detects compromise.
-
-Foundational security enables recovery.
-
-Foundational security still works when the attacker understands it.
-
-Obscurity should come after those things, not before them.
-
-Because if the secret is the security, the security disappears when the secret does.
+Obscurity should come after those things, not before them. Because if the secret is security, then the security disappears when the secret does.
 
 !!! info "Call It Out"
     If the system is only secure because nobody understands it, it is not secure.
@@ -336,9 +334,9 @@ Because if the secret is the security, the security disappears when the secret d
 ## See Also
 
 - [Wikipedia - Security through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity){:target="_blank"}
-- [Assume Breach](0-AssumeBreach.md){ data-preview }
-- [Defense in Depth](1-DefenseInDepth.md){ data-preview }
-- [Clean Source](CleanSource.md){ data-preview }
+- [Assume Breach](./0-AssumeBreach.md)
+- [Defense in Depth](./1-DefenseInDepth.md)
+- [Clean Source](./CleanSource.md)
 - Least Privilege
 - Just-in-Time Access
 - Blast Radius Reduction

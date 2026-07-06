@@ -6,11 +6,11 @@ icon: fontawesome/solid/gavel
 
 ## Overview
 
-Most security failures do not happen because nobody bought enough tools.
+Most security failures do not happen because nobody buys enough tools.
 
 They happen because someone trusted the wrong thing.
 
-- A network was assumed safe.  
+- A network was assumed to be safe.  
 - An identity was assumed legitimate.  
 - A vendor was assumed responsible.  
 - A privileged device was assumed clean.  
@@ -18,7 +18,8 @@ They happen because someone trusted the wrong thing.
 
 Security principles exist to challenge those assumptions before an attacker does.
 
-This section is not a glossary of buzzwords. It is a practical set of mental models for designing systems that are harder to compromise, easier to reason about, and more resilient when something inevitably breaks.
+This section is not a glossary of buzzwords.
+It is a practical set of mental models for designing systems that are harder to compromise, easier to reason about, and more resilient when something inevitably breaks.
 
 !!! quote "The Short Version"
     Security is not about pretending breaches will never happen.  
@@ -26,9 +27,10 @@ This section is not a glossary of buzzwords. It is a practical set of mental mod
 
 ## Start Here: The Principles That Change How You Think
 
-These principles are not just for security teams. They apply to infrastructure, software, identity, cloud architecture, operations, policy, vendor management, and even physical design.
+These principles are not just for security teams.
+They apply to infrastructure, software, identity, cloud architecture, operations, policy, vendor management, and even physical design.
 
-If you build, operate, approve, integrate, or depend on systems, these are for you.
+If you build, run, approve, integrate, or depend on systems, these are for you.
 
 <div class="grid cards" markdown>
 -   :fontawesome-solid-arrow-down-up-lock: **Assume Breach**
@@ -39,7 +41,7 @@ If you build, operate, approve, integrate, or depend on systems, these are for y
 
     **What can it reach next?**
 
-    [:octicons-arrow-right-24: Learn Why This Changes Everything](0-AssumeBreach.md){ data-preview }
+    [:octicons-arrow-right-24: Learn Why This Changes Everything](./0-AssumeBreach.md)
 
 -   :fontawesome-solid-layer-group: **Defense in Depth**
 
@@ -48,7 +50,7 @@ If you build, operate, approve, integrate, or depend on systems, these are for y
 
     Learn how to design systems where a single failure does not become a full compromise.
 
-    [:octicons-arrow-right-24: Make Failure Survivable](1-DefenseInDepth.md){ data-preview }
+    [:octicons-arrow-right-24: Make Failure Survivable](./1-DefenseInDepth.md)
 
 -   :fontawesome-solid-handshake: **Shared Responsibility**
 
@@ -57,32 +59,32 @@ If you build, operate, approve, integrate, or depend on systems, these are for y
 
     Learn what is yours, what belongs to the provider, and why “they handle that” is not a security strategy.
 
-    [:octicons-arrow-right-24: Find Out What Is Still Your Problem](2-SharedResponsibility.md){ data-preview }
+    [:octicons-arrow-right-24: Find Out What Is Still Your Problem](./2-SharedResponsibility.md)
 
 -   :fontawesome-solid-user-secret: **Confidentiality, Integrity, and Availability**
 
     Security is not just about keeping secrets.
 
-    It is also about making sure data is accurate, systems are usable, and critical information survives failure.
+    It is also about making sure data is correct, systems are usable, and critical information survives failure.
 
-    [:octicons-arrow-right-24: Use CIA as a Design-Thinking Shortcut](CIA.md){ data-preview }
+    [:octicons-arrow-right-24: Use CIA as a Design-Thinking Shortcut](./CIA.md)
 
 -   :fontawesome-solid-soap: **Clean Source**
 
     If the thing controlling your system is compromised, your system is compromised by proxy.
 
-    This applies to admin workstations, keyboards, build pipelines, dependencies, automation, and anything upstream of production.
+    This applies to admin workstations, keyboards, pipelines, dependencies, automation, and anything upstream of production.
 
-    [:octicons-arrow-right-24: Trace Trust Back to the Source](CleanSource.md){ data-preview }
+    [:octicons-arrow-right-24: Trace Trust Back to the Source](./CleanSource.md)
 
 -   :fontawesome-solid-eye-slash: **Security Through Obscurity**
 
     Security through obscurity is not useless.
-    It is just usually the wrong first move.
+    It is usually the wrong first move.
 
-    Learn why hiding details can add friction, but rarely changes the outcome unless stronger controls are already doing the real work.
+    Learn why hiding details can add friction but rarely changes the outcome unless stronger controls are already doing the real work.
 
-    [:octicons-arrow-right-24: Stop Hiding Problems and Start Fixing Them](./securityThroughObscurity.md){ data-preview }
+    [:octicons-arrow-right-24: Stop Hiding Problems and Start Fixing Them](./securityThroughObscurity.md)
 </div>
 
 ## The Uncomfortable Truth
@@ -96,7 +98,7 @@ They care about trust relationships:
 - The pipeline that can publish to production.  
 - The SaaS provider everyone forgot to review.  
 - The backup nobody tested.  
-- The admin path nobody threat-modeled.  
+- The admin path nobody threat modeled.  
 
 Good security principles help you see those relationships before they become incident reports.
 
@@ -116,8 +118,8 @@ flowchart LR
 The goal is not to build a system that can never be breached.<br>
 That system does not exist.
 
-The goal is to build systems where compromise is harder, movement is slower, impact is smaller, recovery is faster, and trust is earned instead of assumed.
+The goal is to build resilient systems where compromise is more difficult, attacker movement is constrained, impact is minimized, recovery is accelerated, and trust is continuously verified rather than assumed.
 
 If that sounds useful, start with the principle that makes every other principle sharper:
 
-Start with [Assume Breach](0-AssumeBreach.md){ data-preview }
+Start with [Assume Breach](./0-AssumeBreach.md).
