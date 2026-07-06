@@ -26,22 +26,22 @@ Check out the infrastructure review template for a list of items to verify with 
 
 Legend:
 
-- 🏢 - Your Responsibility
-- 🔄️ - Shared responsibility between you and the provider (specifics depend on the system)
-- ✅ - Offloaded Responsibility to provider
+- 🧑‍💻 - Your Responsibility
+- 🤝 - Shared responsibility between you and the provider (specifics depend on the system)
+- 🌐 - Offloaded Responsibility to provider
 
 | System                                  | On-Prem  | IaaS    | PaaS     | SaaS    |
 | --------------------------------------- | -------- | ------- | -------- | ------- |
-| `Information and Data`                  | 🏢      | 🏢      | 🏢      | 🏢      |
-| `Devices (Clients)`                     | 🏢      | 🏢      | 🏢      | 🏢      |
-| `Accounts and Identities`               | 🏢      | 🏢      | 🏢      | 🏢      |
-| `Identity and Directory Infrastructure` | 🏢      | 🏢      | 🔄️      | 🔄️      |
-| `Application (Source) Code`             | 🏢      | 🏢      | 🔄️      | ✅      |
-| `Networking (SDN/Internet)`             | 🏢      | 🏢      | 🔄️      | ✅      |
-| `Host Operating System`                 | 🏢      | 🏢      | ✅      | ✅      |
-| `Physical Host`                         | 🏢      | ✅      | ✅      | ✅      |
-| `Physical Networking`                   | 🏢      | ✅      | ✅      | ✅      |
-| `Physical Location`                     | 🏢      | ✅      | ✅      | ✅      |
+| `Information and Data`                  | 🧑‍💻      | 🧑‍💻      | 🧑‍💻      | 🧑‍💻      |
+| `Devices (Clients)`                     | 🧑‍💻      | 🧑‍💻      | 🧑‍💻      | 🧑‍💻      |
+| `Accounts and Identities`               | 🧑‍💻      | 🧑‍💻      | 🧑‍💻      | 🧑‍💻      |
+| `Identity and Directory Infrastructure` | 🧑‍💻      | 🧑‍💻      | 🤝      | 🤝      |
+| `Application (Source) Code`             | 🧑‍💻      | 🧑‍💻      | 🤝      | 🌐      |
+| `Networking (SDN/Internet)`             | 🧑‍💻      | 🧑‍💻      | 🤝      | 🌐      |
+| `Host Operating System`                 | 🧑‍💻      | 🧑‍💻      | 🌐      | 🌐      |
+| `Physical Host`                         | 🧑‍💻      | 🌐      | 🌐      | 🌐      |
+| `Physical Networking`                   | 🧑‍💻      | 🌐      | 🌐      | 🌐      |
+| `Physical Location`                     | 🧑‍💻      | 🌐      | 🌐      | 🌐      |
 
 ### Items That Are Always Your Responsibility
 
