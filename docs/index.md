@@ -74,7 +74,6 @@ Please select a system to learn more about it:
 
 I started with the acronym SSE from the CPU instruction set called SSE (Streaming SIMD Extensions). Then I worked backward to a logical name for the project. I am a nerd, what can I say? 🤓
 
-
 <!-- HTML Starfield for the home page background -->
 <canvas id="warpCanvas" aria-hidden="true" role="presentation"></canvas>
 <script>
