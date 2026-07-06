@@ -32,7 +32,7 @@ Please select a system to learn more about it:
 
     Constant concepts and patterns to use across all systems/projects.
 
-    [:octicons-arrow-right-24: Overview](./Constants/index.md){ data-preview }
+    [:octicons-arrow-right-24: Overview](./Constants/index.md)
 
 - :fontawesome-brands-typescript: __TypeScript__
 
@@ -40,7 +40,7 @@ Please select a system to learn more about it:
 
     TypeScript/JavaScript language best practices and recommended style guides.
 
-    [:octicons-arrow-right-24: Getting started](./TypeScript/index.md){ data-preview }
+    [:octicons-arrow-right-24: Getting started](./TypeScript/index.md)
 
 - :fontawesome-brands-github: __GitHub__ (Coming soon!)
 
@@ -48,7 +48,7 @@ Please select a system to learn more about it:
 
     GitHub Enterprise, Org, Repo, and Infrastructure best practices.
 
-    <!-- [:octicons-arrow-right-24: Getting started](./GitHub/index.md){ data-preview } -->
+    <!-- [:octicons-arrow-right-24: Getting started](./GitHub/index.md) -->
 
 - :fontawesome-solid-terminal: __PowerShell__ (Coming soon!)
 
@@ -56,7 +56,7 @@ Please select a system to learn more about it:
 
     PowerShell language best practices and recommended style guides.
 
-    <!-- [:octicons-arrow-right-24: Getting started](./PowerShell/index.md){ data-preview } -->
+    <!-- [:octicons-arrow-right-24: Getting started](./PowerShell/index.md) -->
 
 - :fontawesome-brands-microsoft: __Azure__ (Coming soon!)
 
@@ -64,7 +64,7 @@ Please select a system to learn more about it:
 
     Azure Security Best Practices and recommended governance.
 
-    <!-- [:octicons-arrow-right-24: Getting started](./PowerShell/index.md){ data-preview } -->
+    <!-- [:octicons-arrow-right-24: Getting started](./PowerShell/index.md) -->
 
 </div>
 

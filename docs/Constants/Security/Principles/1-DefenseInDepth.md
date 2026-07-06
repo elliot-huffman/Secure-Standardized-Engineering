@@ -225,7 +225,7 @@ CIA provides a framework for thinking about a subset of controls, while Defense 
 
 ## See Also
 
-- [CIA Triad](CIA.md){ data-preview }
+- [CIA Triad](CIA.md)
 - [Wikipedia - Defense in Depth](https://en.wikipedia.org/wiki/Defence_in_depth){:target="_blank"}
 - [Microsoft - Well Architected Framework - Security](https://learn.microsoft.com/en-us/azure/well-architected/security/){:target="_blank"}
 - [Microsoft - Attacker ROI](https://learn.microsoft.com/en-us/security/zero-trust/adopt/rapidly-modernize-security-posture#attacker-return-on-investment){:target="_blank"}

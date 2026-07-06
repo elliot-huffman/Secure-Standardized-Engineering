@@ -16,5 +16,5 @@ When designing or building any systems, security should be the number one priori
 
     Security concepts and patterns that apply across all systems/projects.
 
-    [:octicons-arrow-right-24: Overview](./Security/index.md){ data-preview }
+    [:octicons-arrow-right-24: Overview](./Security/index.md)
 </div>
