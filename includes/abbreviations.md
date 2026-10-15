@@ -1,4 +1,8 @@
 *[SPA]: Securing Privileged Access
+*[HVA]: High Value Asset
+*[HVAs]: High Value Assets
+*[HRE]: High Risk Environment
+*[HREs]: High Risk Environments
 *[PAW]: Privileged Access Workstation
 *[PAWs]: Privileged Access Workstations
 *[PAM]: Privileged Access Management
@@ -22,3 +26,9 @@
 *[VPN]: Virtual Private Network
 *[NIST]: National Institute of Standards and Technology
 *[CISA]: Cybersecurity and Infrastructure Security Agency
+*[OIDC]: OpenID Connect
+*[MSFT]: Microsoft
+*[1ES]: One Engineering System
+*[SAS]: Secure Admin Services
+*[CSEO]: Core Services Engineering and Operations
+*[GH]: GitHub
