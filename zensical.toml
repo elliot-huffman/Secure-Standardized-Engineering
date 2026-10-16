@@ -424,3 +424,21 @@ Legal = "legal"
 PowerShell = "ps"
 TypeScript = "ts"
 Shared = "common"
+
+# =============
+# Plugins
+# =============
+
+[project.plugins.llmstxt]
+enabled = true
+full_output = "llms-full.txt"
+
+[project.plugins.llmstxt.sections]
+"Azure" = [{"Azure/index.md" ="Coming soon!"}]
+"Constants" = ["Constants/**/*.md"]
+"GitHub" = [{"GitHub/index.md" ="Coming soon!"}]
+"PowerShell" = [{"PowerShell/index.md" ="Coming soon!"}]
+"TypeScript" =  [
+    {"TypeScript/index.md" = "Landing page for the TypeScript content and navigation links to subsections."},
+    {"TypeScript/LearnTheLanguage.md" = "Beginners guide to learning TypeScript, links to free Codecademy courses and OWASP resources."}
+]
